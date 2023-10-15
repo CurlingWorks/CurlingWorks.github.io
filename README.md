@@ -1,2 +1,2 @@
-# CurlingWorks.github.io
-Help and support for CurlingWorks
+# CurlingWork
+Technology for Curling

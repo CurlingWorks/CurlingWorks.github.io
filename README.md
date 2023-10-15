@@ -1,2 +1,0 @@
-# CurlingWork
-Technology for Curling

@@ -24,17 +24,44 @@ description: >- # this means to ignore newlines until "baseurl:"
   Technology for Curling
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.curlingwork.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username: curlingworks
-show_downloads: false
-github:
-  public: false
-  is_project_page: false
+include: ["_pages"]
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+#twitter_username: 
+#github_username: curlingworks
+#show_downloads: false
+#github:
+#  public: false
+#  is_project_page: false
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

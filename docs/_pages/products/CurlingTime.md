@@ -1,5 +1,5 @@
 ---
-permalink: /CurlingTime
+permalink: /curlingtime
 title: CurlingTime
 layout: single
 sidebar:

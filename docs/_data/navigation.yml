@@ -10,7 +10,7 @@ sidebar:
   - title: "Products"
     children:
     - title: "CurlingTime"
-      url: /CurlingTime
+      url: /curlingtime
   - title: "Info"
     children:
     #- title: "About Us"

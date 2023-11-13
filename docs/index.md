@@ -1,10 +1,9 @@
 ---
+title: Welcome Back
 layout: single
 sidebar:
     nav: "sidebar"
 ---
-
-# Welcome Back
 
 A couple decades ago, when the dotcom bubble and Y2K were the main tech stories, I wrote a curling game called **Granite**. It stood out with accurate physics and pretty good AI (for the time). A couple years later, I wrote Granite2 with better graphics and physics. I sold them by shipping CDs (actual, physical CDs) to retail stores or directly to anybody who wanted one. They did pretty well, but then I got busy with fatherhood and a career, and had to put them aside "for a while".
 

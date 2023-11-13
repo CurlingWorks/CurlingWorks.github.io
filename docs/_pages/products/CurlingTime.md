@@ -1,5 +1,6 @@
 ---
-permalink: /products/CurlingTime
+permalink: /CurlingTime
+title: CurlingTime
 layout: single
 sidebar:
     nav: "sidebar"
